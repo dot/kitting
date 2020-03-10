@@ -10,12 +10,12 @@ git clone https://github.com/dot/kitting.git $WORKDIR
 cd $WORKDIR
 
 # setup HomeBrew
-if type brew >/dev/null 2>&1; then
+if ! type brew >/dev/null 2>&1; then
   echo "start install and bundle brew"
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
-  brew upgrade
-  brew bundle
 fi
+brew upgrade
+brew bundle
 
 # setup VSCode
 if type code >/dev/null 2>&1; then
@@ -31,10 +31,9 @@ if [ ! -e "~/.mackup.cfg" ]; then
 [storage]
 engine = icloud
 EOF
-  cd $HOME
-  mackup restore -f
 fi
-
+cd $HOME
+mackup restore -f
 
 # setup OSX settings
 sudo -v

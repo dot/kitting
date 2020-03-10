@@ -5,7 +5,6 @@ tap "homebrew/cask-fonts"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "neovim/neovim"
-tap "puma/puma"
 brew "readline"
 brew "sqlite"
 brew "xz"
@@ -68,7 +67,6 @@ brew "tree"
 brew "vim"
 brew "wget"
 brew "github/gh/gh"
-brew "puma/puma/puma-dev"
 brew 'mackup'
 cask "1password"
 cask "alacritty"
@@ -111,7 +109,7 @@ cask "vivaldi"
 cask "vlc"
 cask "wkhtmltopdf"
 cask "xquartz"
-cask 'karabiner-elemenets'
+cask 'karabiner-elements'
 mas "Amphetamine", id: 937984704
 mas "BetterSnapTool", id: 417375580
 mas "CotEditor", id: 1024640650
