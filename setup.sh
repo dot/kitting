@@ -67,7 +67,7 @@ sudo chflags nohidden /opt
 sudo chflags nohidden /Volumes
 
 # date and clock
-defaults write com.apple.menuextra.clock 'DateFormat' -string 'EEE H:mm:ss'
+defaults write com.apple.menuextra.clock 'DateFormat' -string 'M\u6708d\u65e5(EEE)  H:mm:ss'
 defaults write com.apple.menuextra.clock FlashDateSeparators -bool true
 
 # setup Dock
