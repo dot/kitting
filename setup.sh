@@ -4,8 +4,8 @@
 xcode-select --install
 
 # clone repo
-WORKDIR=~/projects/github.com/dot/
-mkdir $WORKDIR
+WORKDIR=~/projects/github.com/dot/kitting
+mkdir -p $WORKDIR
 git clone https://github.com/dot/kitting.git $WORKDIR
 cd $WORKDIR
 
@@ -20,7 +20,7 @@ brew bundle
 # setup VSCode
 if type code >/dev/null 2>&1; then
   echo 'Setup VSCode'
-  code --install-extension Shan.code-settings-sync -force
+  code --install-extension Shan.code-settings-sync --force
   echo "done"
 fi
 
