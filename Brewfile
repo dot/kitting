@@ -25,7 +25,6 @@ brew "gettext"
 brew "ghq"
 brew "git"
 brew "git-secrets"
-brew "python"
 brew "glib"
 brew "pinentry"
 brew "gnupg"
@@ -35,6 +34,7 @@ brew "highlight"
 brew "hub"
 brew "jq"
 brew "lv"
+brew "mackup"
 brew "mas"
 brew "mosh"
 brew "neovim"
@@ -57,31 +57,32 @@ brew "renameutils"
 brew "ripgrep"
 brew "sd"
 brew "shellcheck"
-brew "ssh-copy-id"
+brew "ssh-copy-id", link: true
 brew "starship"
 brew "the_platinum_searcher"
 brew "the_silver_searcher"
 brew "tig"
 brew "tmux"
+brew "tmuxinator"
 brew "tree"
 brew "vim"
 brew "wget"
+brew "zoxide"
 brew "github/gh/gh"
-brew 'mackup'
 cask "1password"
 cask "alacritty"
 cask "alfred"
 cask "appcleaner"
 cask "appzapper"
 cask "atom"
+cask "bartender"
 cask "bettertouchtool"
 cask "betterzip"
-cask "megasync"
-cask "brave-browser"
 cask "choosy"
 cask "cyberduck"
 cask "dash"
 cask "firefox"
+cask "flux"
 cask "font-fira-code"
 cask "font-hackgen"
 cask "font-noto-sans-cjk-jp"
@@ -95,8 +96,10 @@ cask "github"
 cask "google-chat"
 cask "google-chrome"
 cask "hyperswitch"
+cask "karabiner-elements"
+cask "kitematic"
 cask "libreoffice"
-cask "onyx"
+cask "megasync"
 cask "qlmarkdown"
 cask "qlstephen"
 cask "quicklook-json"
@@ -109,13 +112,12 @@ cask "vivaldi"
 cask "vlc"
 cask "wkhtmltopdf"
 cask "xquartz"
-cask 'karabiner-elements'
+cask "zoomus"
 mas "Amphetamine", id: 937984704
 mas "BetterSnapTool", id: 417375580
 mas "CotEditor", id: 1024640650
 mas "DaisyDisk", id: 411643860
 mas "EdgeView 2", id: 1206246482
-mas "Gyazo", id: 490085255
 mas "Hex Fiend", id: 1342896380
 mas "Kaleidoscope", id: 587512244
 mas "Keynote", id: 409183694
@@ -134,3 +136,4 @@ mas "StuffIt Expander", id: 919269455
 mas "TweetDeck", id: 485812721
 mas "Twitter", id: 1482454543
 mas "WiFi Explorer", id: 494803304
+mas "Xcode", id: 497799835
