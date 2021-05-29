@@ -9,11 +9,13 @@ tap "neovim/neovim"
 brew "readline"
 brew "sqlite"
 brew "xz"
+brew "python@3.9"
 brew "ansible"
 brew "awscli"
 brew "bat"
 brew "gettext"
 brew "glib"
+brew "pkg-config"
 brew "colordiff"
 brew "coreutils"
 brew "curl"
@@ -27,11 +29,14 @@ brew "fish"
 brew "fzf"
 brew "gh"
 brew "ghq"
+brew "gifsicle"
 brew "git"
+brew "git-delta"
 brew "git-secrets"
 brew "pinentry"
 brew "gnupg"
 brew "go"
+brew "graphviz"
 brew "grep"
 brew "hexyl"
 brew "highlight"
@@ -41,6 +46,7 @@ brew "jq"
 brew "lv"
 brew "mackup"
 brew "mas"
+brew "mosh"
 brew "neovim"
 brew "nkf"
 brew "node-build"
@@ -49,8 +55,10 @@ brew "packer"
 brew "peco"
 brew "pinentry-mac"
 brew "postgresql", restart_service: true
+brew "postgresql@11"
 brew "procs"
 brew "pulumi"
+brew "python@3.8"
 brew "ruby-build", args: ["HEAD"]
 brew "rbenv"
 brew "rbenv-default-gems"
@@ -62,6 +70,8 @@ brew "sd"
 brew "shared-mime-info"
 brew "shellcheck"
 brew "ssh-copy-id"
+brew "starship"
+brew "subversion"
 brew "tealdeer"
 brew "tfenv"
 brew "the_platinum_searcher"
@@ -77,16 +87,21 @@ cask "1password"
 cask "alacritty"
 cask "alfred"
 cask "amethyst"
+cask "amorphousdiskmark"
 cask "appcleaner"
 cask "appzapper"
+cask "balenaetcher"
 cask "bartender"
 cask "bettertouchtool"
 cask "betterzip"
+cask "boostnote"
 cask "brave-browser"
+cask "camera-live"
 cask "choosy"
 cask "cyberduck"
 cask "dash"
 cask "discord"
+cask "drivedx"
 cask "dynalist"
 cask "firefox"
 cask "flux"
@@ -109,14 +124,19 @@ cask "keka"
 cask "libreoffice"
 cask "megasync"
 cask "notion"
+cask "obsidian"
 cask "onyx"
+cask "pushplaylabs-sidekick"
+cask "qblocker"
 cask "qlmarkdown"
 cask "qlstephen"
 cask "quicklook-json"
 cask "rectangle"
+cask "sensei"
 cask "session-manager-plugin"
 cask "skype"
 cask "spectacle"
+cask "spotify"
 cask "synergy"
 cask "tableplus"
 cask "virtualbox"
@@ -132,6 +152,7 @@ mas "CotEditor", id: 1024640650
 mas "DaisyDisk", id: 411643860
 mas "Day One", id: 1055511498
 mas "EdgeView 2", id: 1206246482
+mas "GarageBand", id: 682658836
 mas "Gifted", id: 771955779
 mas "Gyazo", id: 490085255
 mas "Hex Fiend", id: 1342896380
@@ -144,6 +165,7 @@ mas "LINE", id: 539883307
 mas "Noizio", id: 928871589
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
+mas "PhoneCast", id: 1548183660
 mas "Pixelmator", id: 407963104
 mas "Pocket", id: 568494494
 mas "Pushbullet", id: 948415170
@@ -151,6 +173,7 @@ mas "Quiver", id: 866773894
 mas "Remote Desktop", id: 409907375
 mas "Slack", id: 803453959
 mas "StuffIt Expander", id: 919269455
+mas "Trello", id: 1278508951
 mas "TweetDeck", id: 485812721
 mas "Twitter", id: 1482454543
 mas "WiFi Explorer", id: 494803304
