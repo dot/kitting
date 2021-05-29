@@ -107,8 +107,6 @@ cask "font-noto-serif-cjk-jp"
 cask "font-ricty-diminished"
 cask "font-roboto"
 cask "font-source-code-pro"
-cask "font-source-han-code-jp"
-cask "font-source-han-sans"
 cask "github"
 cask "google-chrome"
 cask "hyperswitch"
@@ -121,10 +119,6 @@ cask "notion"
 cask "obsidian"
 cask "onyx"
 cask "pushplaylabs-sidekick"
-cask "qblocker"
-cask "qlmarkdown"
-cask "qlstephen"
-cask "quicklook-json"
 cask "rectangle"
 cask "sensei"
 cask "session-manager-plugin"
@@ -162,7 +156,6 @@ mas "Pages", id: 409201541
 mas "PhoneCast", id: 1548183660
 mas "Pixelmator", id: 407963104
 mas "Pocket", id: 568494494
-mas "Pushbullet", id: 948415170
 mas "Quiver", id: 866773894
 mas "Remote Desktop", id: 409907375
 mas "Slack", id: 803453959
