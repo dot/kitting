@@ -142,7 +142,6 @@ mas "Day One", id: 1055511498
 mas "EdgeView 2", id: 1206246482
 mas "GarageBand", id: 682658836
 mas "Gifted", id: 771955779
-mas "Gyazo", id: 490085255
 mas "Hex Fiend", id: 1342896380
 mas "isHUD", id: 484757536
 mas "Jayson", id: 1468691718
