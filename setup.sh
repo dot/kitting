@@ -13,9 +13,12 @@ cd $WORKDIR
 if ! type brew >/dev/null 2>&1; then
   echo "start install and bundle brew"
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+  echo 'eval $(/opt/homebrew/bin/brew shellenv)' >> /Users/hoge/.zprofile
+  eval $(/opt/homebrew/bin/brew shellenv)
 fi
 brew upgrade
-brew bundle
+cp Brewfile ~/.Brewfile
+brew bundle --global
 
 # setup VSCode
 if type code >/dev/null 2>&1; then
