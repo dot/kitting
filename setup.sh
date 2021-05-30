@@ -13,8 +13,10 @@ cd $WORKDIR
 if ! type brew >/dev/null 2>&1; then
   echo "start install and bundle brew"
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
-  echo 'eval $(/opt/homebrew/bin/brew shellenv)' >> /Users/hoge/.zprofile
-  eval $(/opt/homebrew/bin/brew shellenv)
+  if [ "$(uname -m)" == 'arm64' ]; then
+    echo 'eval $(/opt/homebrew/bin/brew shellenv)' >> ${HOME}/.zprofile
+    eval $(/opt/homebrew/bin/brew shellenv)
+  fi
 fi
 brew upgrade
 cp Brewfile ~/.Brewfile
