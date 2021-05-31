@@ -16,6 +16,7 @@ if ! type brew >/dev/null 2>&1; then
   if [ "$(uname -m)" == 'arm64' ]; then
     echo 'eval $(/opt/homebrew/bin/brew shellenv)' >> ${HOME}/.zprofile
     eval $(/opt/homebrew/bin/brew shellenv)
+    sudo softwareupdate --install-rosetta --agree-to-license
   fi
 fi
 brew upgrade
