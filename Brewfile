@@ -9,13 +9,11 @@ tap "neovim/neovim"
 brew "readline"
 brew "sqlite"
 brew "xz"
-brew "python@3.9"
 brew "ansible"
 brew "awscli"
 brew "bat"
 brew "gettext"
 brew "glib"
-brew "pkg-config"
 brew "colordiff"
 brew "coreutils"
 brew "curl"
@@ -30,6 +28,7 @@ brew "fzf"
 brew "gh"
 brew "ghq"
 brew "gifsicle"
+brew "gist"
 brew "git"
 brew "git-delta"
 brew "git-secrets"
@@ -61,11 +60,10 @@ brew "rbenv"
 brew "rbenv-default-gems"
 brew "rbenv-gemset"
 brew "reattach-to-user-namespace"
-brew "renameutils"
 brew "ripgrep"
+brew "rust"
 brew "sd"
 brew "shared-mime-info"
-brew "shellcheck"
 brew "ssh-copy-id"
 brew "starship"
 brew "subversion"
@@ -87,6 +85,7 @@ cask "amethyst"
 cask "amorphousdiskmark"
 cask "appcleaner"
 cask "appzapper"
+cask "audio-hijack"
 cask "bartender"
 cask "bettertouchtool"
 cask "betterzip"
@@ -100,6 +99,7 @@ cask "dynalist"
 cask "firefox"
 cask "flux"
 cask "folx"
+cask "font-cica"
 cask "font-fira-code"
 cask "font-hackgen"
 cask "font-noto-sans-cjk-jp"
@@ -114,7 +114,9 @@ cask "kap"
 cask "karabiner-elements"
 cask "keka"
 cask "libreoffice"
+cask "loopback"
 cask "megasync"
+cask "mmhmm"
 cask "notion"
 cask "obsidian"
 cask "onyx"
@@ -143,13 +145,13 @@ mas "EdgeView 2", id: 1206246482
 mas "GarageBand", id: 682658836
 mas "Gifted", id: 771955779
 mas "Hex Fiend", id: 1342896380
+mas "iMovie", id: 408981434
 mas "isHUD", id: 484757536
 mas "Jayson", id: 1468691718
 mas "Kaleidoscope", id: 587512244
 mas "Keynote", id: 409183694
 mas "Kindle", id: 405399194
 mas "LINE", id: 539883307
-mas "Noizio", id: 928871589
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "PhoneCast", id: 1548183660

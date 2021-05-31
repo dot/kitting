@@ -19,8 +19,7 @@ if ! type brew >/dev/null 2>&1; then
   fi
 fi
 brew upgrade
-cp Brewfile ~/.Brewfile
-brew bundle --global
+brew bundle
 
 # setup VSCode
 if type code >/dev/null 2>&1; then
