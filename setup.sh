@@ -25,7 +25,7 @@ brew bundle
 # setup VSCode
 if type code >/dev/null 2>&1; then
   echo 'Setup VSCode'
-  code --install-extension Shan.code-settings-sync --force
+#  code --install-extension Shan.code-settings-sync --force
   echo "done"
 fi
 
@@ -39,6 +39,9 @@ EOF
 fi
 cd $HOME
 mackup restore -f
+
+# mackup uninstall
+mackup uninstall -f
 
 # setup OSX settings
 sudo -v
@@ -116,3 +119,4 @@ defaults write com.apple.PowerChime ChimeOnNoHardware -bool true
 killall Finder
 killall Dock
 killall PowerChime
+
